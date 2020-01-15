@@ -1,0 +1,51 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+/* Tagging by class rather than HTML tag */
+.title {
+  color: teal;
+}
+
+/* Tagging to multiple classes in the HTML */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Tagging to a specific id */
+/* #article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+} */
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Showing resuse of CSS elements */
+.publish-time {
+  color: gray;
+}
+
+/* Chaining selectors */
+h2.destination {
+  font-family: cursive;
+}
+
+/* Nested Elements */
+.description h5 {
+  color: red;
+}
+
+h5, p {
+  font-family: Georgia;
+  color: rebeccapurple !important; /* Important should be rarely used */
+}
